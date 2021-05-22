@@ -6,6 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 	private static String URL-ReST="http://abc.com";
+//HIS-100
+@SpringBootApplication
+public class Application {
+  
+    private static int i=10;
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
